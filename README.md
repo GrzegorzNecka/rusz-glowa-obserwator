@@ -8,7 +8,13 @@
   prognoza
 
 ### zadanie:
-stwórz aplikację, która będzie wykorzystywała obiekt dane pogodowe do aktualizacji informacji wyświetlanych w trzech głównych trybach pracy
+- stwórz aplikację, która będzie wykorzystywała obiekt dane pogodowe do aktualizacji informacji wyświetlanych w trzech głównych trybach pracy
+- zadanie polega na implementacji metody odczytZmiana() tak aby była ona w stanie automatycznie aktualizować informacje wyświetlane w trybach "warunki bierzące", "statystyka" oraz "prognoza"
 
 ## wskazówki
- - metoda jest wywoływana za każdym razem, kiedy zostaną zaktualizowane odczyty z czujników pogody
+ - metoda odczytZmiana jest wywoływana za każdym razem, kiedy zostaną zaktualizowane odczyty z czujników pogody
+ - zadainplementuj obsługę trzech trybów wyświetlania wykorzystujących dane o pogodzie:trybów:
+    - warunki bierzące
+    - statystyka
+    - prognoza
+  - dane wyświetlane w poszczególnych trybach muszą być aktualizowane
